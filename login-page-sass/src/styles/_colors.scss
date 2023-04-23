@@ -1,0 +1,15 @@
+$color-gray-100: #fefefe;
+$color-gray-200: #ECECEC;
+$color-gray-400: rgb(188, 188, 188);
+$color-gray-900: #181725;
+
+$color-green-300: #12E497;
+$color-green-400: #079460;
+
+$color-error: red;
+
+$font-stack: 'Lexend Deca', 'Arial', 'Helvetica', 'sans-serif';
+
+@mixin elevation ($value){
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, $value * 0.1);
+}
