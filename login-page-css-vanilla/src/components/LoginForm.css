@@ -1,0 +1,95 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: white;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 40px 80px;
+  padding-bottom: 90px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #181725;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #181725;
+  border-radius: 5px;
+  width: 100%;
+  padding: 6px 12px;
+  color: white;
+  accent-color: #181725;
+}
+
+input::placeholder {
+  color: rgb(188, 188, 188);
+}
+
+small {
+  color: red;
+}
+
+button {
+  background-color: #12E497;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #079460;
+}
+
+a {
+  color: #12E497;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.show-password-input {
+  position: absolute;
+  top:12px;
+  right: 12px;
+  width: 20px;
+}
+
+.remember-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remember-input {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+#remember {
+  flex: 1;
+  margin-right: 8px;
+}
